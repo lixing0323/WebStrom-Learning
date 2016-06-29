@@ -1,9 +1,7 @@
-a ol {
-    color: red;
-    weight:30px;
+a {
+    color: red;;
+    width: 30px;
     height: 30px;
     font-style: italic;
     font-weight: normal;
 }
-
-a
