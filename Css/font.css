@@ -1,13 +1,28 @@
-div.font_link{
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: line-through;
     color: red;
+}
+
+div > a:first-child{
+    font-size: 2em;
+}
+
+div.font_link{
+    color: yellow;
     font-style: italic;
     font-weight: bolder;
+    line-height: 50px;
+    list-style-type: square;
 
     background-color: gray;
     background-image: url("../Image/cake.jpg");
     background-position: 200px 200px;
     padding: 5px;
-    text-decoration: none;
 }
 
 div.font_unuse{
@@ -24,3 +39,13 @@ div.font_unuse{
     width: 300px;
     height: 400px;
 }
+
+#font_id {
+    font-size: 1em;
+}
+
+a[target]{
+    color: red;
+}
+
+
