@@ -1,7 +1,26 @@
-a {
-    color: red;;
-    width: 30px;
-    height: 30px;
+div.font_link{
+    color: red;
     font-style: italic;
-    font-weight: normal;
+    font-weight: bolder;
+
+    background-color: gray;
+    background-image: url("../Image/cake.jpg");
+    background-position: 200px 200px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+div.font_unuse{
+    text-indent: 5em;
+}
+
+.img_cake img{
+    text-align: center;
+    width: 300px;
+    height: 200px;
+}
+
+.img_icon img{
+    width: 300px;
+    height: 400px;
 }
