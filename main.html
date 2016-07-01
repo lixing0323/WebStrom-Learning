@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <title>主页</title>
     <link rel="stylesheet" type="text/css" href="Css/font.css">
+    <script type="text/javascript" src="./Jquery/jquery3.js"></script>
+    <script type="text/javascript" src="./Javascript/button.js"></script>
+    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>-->
+    <script type="text/javascript" src="./Javascript/change.js"></script>
+
 </head>
 <body>
-<h2>This is a Test!!!</h2>
 
 <div class="font_text">
     <ol>
         <div class="font_link">
-            <li><a href="Html/linkTwo.html" target="_blank">图标</a></li>
-            <li><a href="Html/linkOne.html" target="_blank">蛋糕</a></li>
+            <li><a href="Html/linkTwo.html" target="_blank">打开一个新的窗口</a></li>
+            <li><a href="Html/linkOne.html">在原有窗口上打开</a></li>
         </div>
         <div class="font_unuse">
             <li>无用的</li>
@@ -24,9 +28,9 @@
     <li>id 选择器</li>
 </div>
 
-<script type="text/javascript" src="./Javascript/button.js"></script>
-<button type="button" onclick="findEm()">click it!</button>
-<button type="button" onclick="person()">got it!</button>
+<li><button type="button" onclick="findEm()">click it open a new window!</button></li>
+<li><button type="button" onclick="person()">give a message!</button></li>
+<li><button type="button">change the id选择器 font size to 2em</button></li>
 
 </body>
 </html>

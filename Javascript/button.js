@@ -2,9 +2,12 @@
  * Created by lixing on 16/6/30.
  */
 
+
 function findEm() {
     x = document.getElementById("font_id");
     x.innerHTML="It is a button click demo";
+
+    window.open("http://sports.sina.com.cn");
 }
 
 function person() {
